@@ -57,7 +57,7 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--depth', type=int, default=3, 
             help='How meny levels below the top level to evaluate')
     parser.add_argument('-l', '--createlist', action='store_true', 
-            help='Do not download, only create lsit of files to download')
+            help='Do not download, only create list of files to download')
     parser.add_argument('-p', '--printscreen', action='store_true', 
             help='Print list of files to download to screen')
     try:
